@@ -2,7 +2,18 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
 
+    <TextView
+        android:id="@+id/tvSong"
+        android:background="@drawable/ic_gray_rectangle"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shape of you"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
 
 </androidx.cardview.widget.CardView>
