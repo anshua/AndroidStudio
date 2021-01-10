@@ -34,7 +34,6 @@ public class ProfileAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 view = LayoutInflater.from(parent.getContext()).inflate(R.layout.profile, parent, false);
                 return new ProfileViewHolder(view);
             case ProfileModel.ITEM_HEADER:
-                Log.d("TAG", "onCreateViewHolder: Header");
                 view = LayoutInflater.from(parent.getContext()).inflate(R.layout.header, parent, false);
                 return new HeaderViewHolder(view);
             default:
@@ -42,7 +41,6 @@ public class ProfileAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 return new MusicViewHolder(view);
         }
     }
-
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {

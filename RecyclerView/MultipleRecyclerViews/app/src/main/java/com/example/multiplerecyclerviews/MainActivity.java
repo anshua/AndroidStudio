@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.music);
         recyclerView = findViewById(R.id.recyclerView);
-        initData();
-        setRecyclerView();
+//        initData();
+//        setRecyclerView();
     }
 
     private void setRecyclerView(){
