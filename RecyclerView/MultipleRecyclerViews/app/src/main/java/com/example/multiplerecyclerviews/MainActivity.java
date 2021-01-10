@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.music);
+        setContentView(R.layout.activity_main);
         recyclerView = findViewById(R.id.recyclerView);
-//        initData();
-//        setRecyclerView();
+        initData();
+        setRecyclerView();
     }
 
     private void setRecyclerView(){
@@ -35,27 +35,27 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 10; i++){
             if(i%3 == 0){
                 profileModels.add(new ProfileModel(R.drawable.dhoni,"Age: 39", "Cricketer",
-                        "", "", ProfileModel.ITEM_PROFILE));
+                        "", "", 0, ProfileModel.ITEM_PROFILE));
                 profileModels.add(new ProfileModel(0,"", "",
-                        "Mahendra Singh Dhoni", "", ProfileModel.ITEM_HEADER));
+                        "Mahendra Singh Dhoni", "", 0, ProfileModel.ITEM_HEADER));
                 profileModels.add(new ProfileModel(0,"", "",
-                        "", "Jab tak", ProfileModel.ITEM_MUSIC));
+                        "", "Jab tak", R.raw.shape_of_you, ProfileModel.ITEM_MUSIC));
             }
             else if(i%3 == 1){
                 profileModels.add(new ProfileModel(R.drawable.dhing, "Age: 20","Athelete",
-                        "", "", ProfileModel.ITEM_PROFILE));
+                        "", "", 0, ProfileModel.ITEM_PROFILE));
                 profileModels.add(new ProfileModel(0,"", "",
-                        "Hima Das", "", ProfileModel.ITEM_HEADER));
+                        "Hima Das", "", 0, ProfileModel.ITEM_HEADER));
                 profileModels.add(new ProfileModel(0,"", "",
-                        "", "Chennai Express", ProfileModel.ITEM_MUSIC));
+                        "", "Chennai Express", R.raw.shape_of_you, ProfileModel.ITEM_MUSIC));
             }
             else{
                 profileModels.add(new ProfileModel(R.drawable.smriti,"Age: 23","Cricketer",
-                        "", "", ProfileModel.ITEM_PROFILE));
+                        "", "", 0, ProfileModel.ITEM_PROFILE));
                 profileModels.add(new ProfileModel(0,"", "",
-                        "Smriti Mandhana", "", ProfileModel.ITEM_HEADER));
+                        "Smriti Mandhana", "", 0, ProfileModel.ITEM_HEADER));
                 profileModels.add(new ProfileModel(0,"", "",
-                        "", "Chak de India", ProfileModel.ITEM_MUSIC));
+                        "", "Chak de India", R.raw.shape_of_you, ProfileModel.ITEM_MUSIC));
             }
         }
     }

@@ -12,14 +12,16 @@ public class ProfileModel {
     private String age;
     private String description;
     private String name;
-    private String song;
+    private String songName;
+    private int song;
     private int viewType;
 
-    public ProfileModel(int imageID, String age, String description, String name, String song, int viewType) {
+    public ProfileModel(int imageID, String age, String description, String name, String songName, int song, int viewType) {
         this.imageID = imageID;
         this.age = age;
         this.description = description;
         this.name = name;
+        this.songName = songName;
         this.song = song;
         this.viewType = viewType;
     }
@@ -40,7 +42,11 @@ public class ProfileModel {
         return description;
     }
 
-    public String getSong() {
+    public String getSongName() {
+        return songName;
+    }
+
+    public int getSong() {
         return song;
     }
 

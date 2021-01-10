@@ -18,7 +18,6 @@ public class ProfileAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         this.profileModels = profileModels;
     }
 
-
     @Override
     public int getItemViewType(int position) {
         return profileModels.get(position).getViewType();

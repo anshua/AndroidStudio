@@ -1,6 +1,7 @@
 package com.example.multiplerecyclerviews;
 
 import android.media.MediaPlayer;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -27,6 +28,22 @@ public class MusicViewHolder extends RecyclerView.ViewHolder {
     }
 
     public void setData(ProfileModel profileModel){
-        tvSong.setText(profileModel.getSong());
+        tvSong.setText(profileModel.getSongName());
+        mediaPlayer = MediaPlayer.create(itemView.getContext(), R.raw.shape_of_you);
+        btnPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaPlayer.start();
+                Log.d("TAG", "onClick: PLAY");
+            }
+        });
+
+        btnPause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaPlayer.pause();
+                Log.d("TAG", "onClick: PAUSE");
+            }
+        });
     }
 }
