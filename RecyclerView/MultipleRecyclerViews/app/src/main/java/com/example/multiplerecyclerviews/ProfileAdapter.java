@@ -18,11 +18,16 @@ public class ProfileAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         this.profileModels = profileModels;
     }
 
+
+    @Override
+    public int getItemViewType(int position) {
+        return profileModels.get(position).getViewType();
+    }
+
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view;
-        Log.d("TAG", "onCreateViewHolder: " + viewType );
 
         switch (viewType) {
             case ProfileModel.ITEM_PROFILE:
@@ -49,7 +54,6 @@ public class ProfileAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                     ((ProfileViewHolder) holder).setData(profileModel);
                 }
             case ProfileModel.ITEM_HEADER:
-                Log.d("TAG", "onBindViewHolder: Anshuuuuu");
                 if (holder instanceof  HeaderViewHolder){
                     ((HeaderViewHolder) holder).setData(profileModel);
                 }

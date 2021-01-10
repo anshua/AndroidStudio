@@ -33,21 +33,29 @@ public class MainActivity extends AppCompatActivity {
         profileModels = new ArrayList<>();
 
         for (int i = 0; i < 10; i++){
-//            profileModels.add(new ProfileModel(R.drawable.dhoni, "Age:39", "Cricketer"));
             if(i%3 == 0){
                 profileModels.add(new ProfileModel(R.drawable.dhoni,"Age: 39", "Cricketer",
-                        "", "mmmmmm", ProfileModel.ITEM_PROFILE));
+                        "", "", ProfileModel.ITEM_PROFILE));
                 profileModels.add(new ProfileModel(0,"", "",
-                        "Mahendra Singh Dhoni", "2erfgb", ProfileModel.ITEM_HEADER));
-
+                        "Mahendra Singh Dhoni", "", ProfileModel.ITEM_HEADER));
+                profileModels.add(new ProfileModel(0,"", "",
+                        "", "Jab tak", ProfileModel.ITEM_MUSIC));
             }
             else if(i%3 == 1){
                 profileModels.add(new ProfileModel(R.drawable.dhing, "Age: 20","Athelete",
-                        "", "mmmmm", ProfileModel.ITEM_MUSIC));
+                        "", "", ProfileModel.ITEM_PROFILE));
+                profileModels.add(new ProfileModel(0,"", "",
+                        "Hima Das", "", ProfileModel.ITEM_HEADER));
+                profileModels.add(new ProfileModel(0,"", "",
+                        "", "Chennai Express", ProfileModel.ITEM_MUSIC));
             }
             else{
                 profileModels.add(new ProfileModel(R.drawable.smriti,"Age: 23","Cricketer",
-                        "", "mmmmmmm", ProfileModel.ITEM_MUSIC));
+                        "", "", ProfileModel.ITEM_PROFILE));
+                profileModels.add(new ProfileModel(0,"", "",
+                        "Smriti Mandhana", "", ProfileModel.ITEM_HEADER));
+                profileModels.add(new ProfileModel(0,"", "",
+                        "", "Chak de India", ProfileModel.ITEM_MUSIC));
             }
         }
     }
