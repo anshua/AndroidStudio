@@ -4,9 +4,9 @@ import android.util.Log;
 
 public class ProfileModel {
 
-    public static final int ITEM_HEADER = 11;
-    public static final int ITEM_MUSIC = 23;
-    public static final int ITEM_PROFILE = 10;
+    public static final int ITEM_PROFILE = 0;
+    public static final int ITEM_HEADER = 1;
+    public static final int ITEM_MUSIC = 2;
 
     private int imageID;
     private String age;
@@ -22,7 +22,6 @@ public class ProfileModel {
         this.name = name;
         this.song = song;
         this.viewType = viewType;
-        Log.d("TAG", "ProfileModel: " + this.viewType);
     }
 
     public int getImageID() {
