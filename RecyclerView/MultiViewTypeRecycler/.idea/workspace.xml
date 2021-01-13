@@ -7,64 +7,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eda1d42e-fbc9-4b88-a275-c253fce1156e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/multiviewtyperecycler/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/multiviewtyperecycler/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/multiviewtyperecycler/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BirdsRecyclerView/app/src/main/java/com/example/birdsrecyclerview/BirdsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BirdsRecyclerView/app/src/main/java/com/example/birdsrecyclerview/BirdsAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BirdsRecyclerView/app/src/main/java/com/example/birdsrecyclerview/BirdsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BirdsRecyclerView/app/src/main/java/com/example/birdsrecyclerview/BirdsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultipleRecyclerViews/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MultipleRecyclerViews/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/MusicViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/MusicViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/ProfileAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/ProfileAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/ProfileModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/ProfileModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/ProfileViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/java/com/example/multiplerecyclerviews/ProfileViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/res/layout/header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/res/layout/header.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/res/layout/music.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/res/layout/music.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/res/layout/profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MultipleRecyclerViews/app/src/main/res/layout/profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/androidTest/java/com/example/contactlist/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/java/com/example/contactlist/FirstActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/java/com/example/contactlist/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/layout/activity_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/app/src/test/java/com/example/contactlist/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ContactList/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[448bce77]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -82,6 +73,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MultipleRecyclerViews" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -161,5 +153,11 @@
       <updated>1610276489989</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610346774952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610346774952" />
   </component>
 </project>
